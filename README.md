@@ -29,3 +29,38 @@ viter-one-page
 └─ vite.config.js
 
 ```
+```
+viter-one-page
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  └─ fonts
+│     ├─ Poppins-Bold.woff2
+│     ├─ Poppins-Medium.woff2
+│     ├─ Poppins-Regular.woff2
+│     └─ Poppins-SemiBold.woff2
+├─ README.md
+├─ src
+│  ├─ App.jsx
+│  ├─ assets
+│  ├─ components
+│  │  ├─ pages
+│  │  │  └─ home
+│  │  │     ├─ AboutHome.jsx
+│  │  │     ├─ BannerHome.jsx
+│  │  │     ├─ ContactHome.jsx
+│  │  │     ├─ Home.jsx
+│  │  │     ├─ Services.jsx
+│  │  │     └─ Testimonials.jsx
+│  │  └─ partials
+│  │     ├─ Footer.jsx
+│  │     └─ Header.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ tailwind.config.js
+└─ vite.config.js
+
+```
