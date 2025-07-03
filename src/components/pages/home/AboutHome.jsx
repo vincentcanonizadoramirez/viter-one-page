@@ -3,7 +3,7 @@ import React from "react";
 const AboutHome = () => {
   return (
     <>
-      <section className="py-16 bg-white">
+      <section id="about-home" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             {/* Left Column - Image */}

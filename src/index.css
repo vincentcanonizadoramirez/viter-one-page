@@ -31,6 +31,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 @layer components {
 }

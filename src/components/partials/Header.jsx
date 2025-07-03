@@ -17,13 +17,13 @@ const Header = () => {
           <a href="#" className="hover:text-blue-500">
             Home
           </a>
-          <a href="#" className="hover:text-blue-500">
+          <a href="#about-home" className="hover:text-blue-500">
             About
           </a>
-          <a href="#" className="hover:text-blue-500">
+          <a href="#services" className="hover:text-blue-500">
             Services
           </a>
-          <a href="#" className="hover:text-blue-500">
+          <a href="#contact-home" className="hover:text-blue-500">
             Contact
           </a>
         </nav>
@@ -71,13 +71,13 @@ const Header = () => {
           <a href="#" className="block py-2 hover:text-blue-500">
             Home
           </a>
-          <a href="#" className="block py-2 hover:text-blue-500">
+          <a href="#about-home" className="block py-2 hover:text-blue-500">
             About
           </a>
-          <a href="#" className="block py-2 hover:text-blue-500">
+          <a href="#services" className="block py-2 hover:text-blue-500">
             Services
           </a>
-          <a href="#" className="block py-2 hover:text-blue-500">
+          <a href="#contact-home" className="block py-2 hover:text-blue-500">
             Contact
           </a>
         </div>
