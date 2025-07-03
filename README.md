@@ -19,24 +19,6 @@ viter-one-page
 ├─ package.json
 ├─ postcss.config.js
 ├─ public
-├─ README.md
-├─ src
-│  ├─ App.jsx
-│  ├─ assets
-│  ├─ index.css
-│  └─ main.jsx
-├─ tailwind.config.js
-└─ vite.config.js
-
-```
-```
-viter-one-page
-├─ eslint.config.js
-├─ index.html
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.js
-├─ public
 │  └─ fonts
 │     ├─ Poppins-Bold.woff2
 │     ├─ Poppins-Medium.woff2
