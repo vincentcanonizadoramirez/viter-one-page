@@ -3,7 +3,7 @@ import React from "react";
 const BannerHome = () => {
   return (
     <>
-      <section className="py-12 md:py-20 mt-[56px]">
+      <section className="py-12 md:py-20 mt-[88px]">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             {/* Left Column - Image */}
