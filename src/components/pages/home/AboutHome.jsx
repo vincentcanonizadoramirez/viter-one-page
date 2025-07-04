@@ -1,4 +1,4 @@
-import React from "react";
+import { IoCheckmark } from "react-icons/io5";
 
 const AboutHome = () => {
   return (
@@ -10,7 +10,7 @@ const AboutHome = () => {
             <div className="w-full md:w-1/2">
               <div className="bg-gray-100 rounded-xl overflow-hidden aspect-video">
                 <img
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                  src="/images/about-home.webp"
                   alt="Our team working together"
                   className="w-full h-full object-cover"
                 />
@@ -23,62 +23,26 @@ const AboutHome = () => {
                 About Our Company
               </h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2015, we're a passionate team of designers and
+                Founded in 2025, we're a passionate team of designers and
                 developers dedicated to creating exceptional digital
                 experiences. Our mission is to help businesses thrive in the
                 digital world through innovative solutions.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <svg
-                    className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <IoCheckmark className="text-[#2563eb] mt-1 mr-3 w-6 h-6" />
                   <p className="text-gray-600">
                     10+ years combined industry experience
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <svg
-                    className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <IoCheckmark className="text-[#2563eb] mt-1 mr-3 w-6 h-6" />
                   <p className="text-gray-600">
                     50+ successful projects delivered
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <svg
-                    className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <IoCheckmark className="text-[#2563eb] mt-1 mr-3 w-6 h-6" />
                   <p className="text-gray-600">
                     Client-focused approach with 24/7 support
                   </p>

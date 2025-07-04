@@ -9,7 +9,7 @@ const BannerHome = () => {
             {/* Left Column - Image */}
             <div className="w-full md:w-1/2">
               <img
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+                src="/images/banner-home.webp"
                 alt="Team collaboration"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
               />
@@ -24,7 +24,7 @@ const BannerHome = () => {
                 We Deliver Innovative Solutions
               </h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2010, we help businesses transform their ideas into
+                Founded in 2025, we help businesses transform their ideas into
                 reality through cutting-edge technology and expert consulting
                 services. Our team of 50+ professionals delivers measurable
                 results.
