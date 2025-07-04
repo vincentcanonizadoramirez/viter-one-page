@@ -43,10 +43,11 @@ viter-one-page
 │  ├─ assets
 │  ├─ components
 │  │  ├─ pages
-│  │  │  └─ home
-│  │  │     ├─ AboutHome.jsx
-│  │  │     ├─ BannerHome.jsx
-│  │  │     ├─ ContactHome.jsx
+│  │  │  ├─ developer
+│  │  │  └─ website
+│  │  │     ├─ About.jsx
+│  │  │     ├─ Banner.jsx
+│  │  │     ├─ Contact.jsx
 │  │  │     ├─ Home.jsx
 │  │  │     ├─ Services.jsx
 │  │  │     └─ Testimonials.jsx
