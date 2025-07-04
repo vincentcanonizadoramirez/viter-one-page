@@ -1,4 +1,5 @@
 import React from "react";
+import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 
 const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -86,19 +87,7 @@ const Testimonials = () => {
               }
               className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 bg-white p-2 rounded-full shadow-md hover:bg-gray-100"
             >
-              <svg
-                className="w-6 h-6 text-gray-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
+              <HiOutlineChevronLeft className="w-6 h-6 text-gray-600" />
             </button>
             <button
               onClick={() =>
@@ -106,19 +95,7 @@ const Testimonials = () => {
               }
               className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 bg-white p-2 rounded-full shadow-md hover:bg-gray-100"
             >
-              <svg
-                className="w-6 h-6 text-gray-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
+              <HiOutlineChevronRight className="w-6 h-6 text-gray-600" />
             </button>
 
             {/* Dots Indicator */}

@@ -32,7 +32,7 @@ const ContactHome = () => {
 
                 <div className="space-y-6">
                   <div className="flex items-start">
-                    <HiOutlineLocationMarker className="text-[#2563eb] mt-1 mr-4 w-6 h-6" />
+                    <HiOutlineLocationMarker className="text-blue-600 mt-1 mr-4 w-6 h-6" />
                     <div>
                       <h4 className="font-medium">Address</h4>
                       <p className="text-gray-600">
@@ -44,7 +44,7 @@ const ContactHome = () => {
                   </div>
 
                   <div className="flex items-start">
-                    <HiOutlinePhone className="text-[#2563eb] mt-1 mr-4 w-6 h-6" />
+                    <HiOutlinePhone className="text-blue-600 mt-1 mr-4 w-6 h-6" />
                     <div>
                       <h4 className="font-medium">Phone</h4>
                       <p className="text-gray-600">+1 (555) 123-4567</p>
@@ -52,7 +52,7 @@ const ContactHome = () => {
                   </div>
 
                   <div className="flex items-start">
-                    <HiOutlineMail className="text-[#2563eb] mt-1 mr-4 w-6 h-6" />
+                    <HiOutlineMail className="text-blue-600 mt-1 mr-4 w-6 h-6" />
                     <div>
                       <h4 className="font-medium">Email</h4>
                       <p className="text-gray-600">hello@yourcompany.com</p>

@@ -1,4 +1,4 @@
-import { IoCheckmark } from "react-icons/io5";
+import { HiOutlineCheck } from "react-icons/hi";
 
 const AboutHome = () => {
   return (
@@ -30,19 +30,19 @@ const AboutHome = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <IoCheckmark className="text-[#2563eb] mt-1 mr-3 w-6 h-6" />
+                  <HiOutlineCheck className="text-blue-600 mt-1 mr-3 w-6 h-6" />
                   <p className="text-gray-600">
                     10+ years combined industry experience
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <IoCheckmark className="text-[#2563eb] mt-1 mr-3 w-6 h-6" />
+                  <HiOutlineCheck className="text-blue-600 mt-1 mr-3 w-6 h-6" />
                   <p className="text-gray-600">
                     50+ successful projects delivered
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <IoCheckmark className="text-[#2563eb] mt-1 mr-3 w-6 h-6" />
+                  <HiOutlineCheck className="text-blue-600 mt-1 mr-3 w-6 h-6" />
                   <p className="text-gray-600">
                     Client-focused approach with 24/7 support
                   </p>

@@ -19,11 +19,24 @@ viter-one-page
 ├─ package.json
 ├─ postcss.config.js
 ├─ public
-│  └─ fonts
-│     ├─ Poppins-Bold.woff2
-│     ├─ Poppins-Medium.woff2
-│     ├─ Poppins-Regular.woff2
-│     └─ Poppins-SemiBold.woff2
+│  ├─ apple-touch-icon.png
+│  ├─ favicon-16x16.png
+│  ├─ favicon-32x32.png
+│  ├─ favicon.ico
+│  ├─ fonts
+│  │  ├─ Poppins-Bold.woff2
+│  │  ├─ Poppins-Medium.woff2
+│  │  ├─ Poppins-Regular.woff2
+│  │  └─ Poppins-SemiBold.woff2
+│  └─ images
+│     ├─ about-home.webp
+│     ├─ banner-home.webp
+│     ├─ card-icon-seo-optimization.webp
+│     ├─ card-icon-ui-ux-design.webp
+│     ├─ card-icon-web-development.webp
+│     ├─ testimonials-1.webp
+│     ├─ testimonials-2.webp
+│     └─ testimonials-3.webp
 ├─ README.md
 ├─ src
 │  ├─ App.jsx
