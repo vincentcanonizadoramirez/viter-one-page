@@ -1,9 +1,9 @@
 import { HiOutlineCheck } from "react-icons/hi";
 
-const AboutHome = () => {
+const About = () => {
   return (
     <>
-      <section id="about-home" className="py-16 bg-white">
+      <section id="about" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             {/* Left Column - Image */}
@@ -59,4 +59,4 @@ const AboutHome = () => {
   );
 };
 
-export default AboutHome;
+export default About;

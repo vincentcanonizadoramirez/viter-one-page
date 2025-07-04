@@ -5,7 +5,7 @@ import {
   HiOutlinePhone,
 } from "react-icons/hi";
 
-const ContactHome = () => {
+const Contact = () => {
   const [formData, setFormData] = React.useState({
     name: "",
     email: "",
@@ -20,7 +20,7 @@ const ContactHome = () => {
 
   return (
     <>
-      <section id="contact-home" className="py-16 bg-white">
+      <section id="contact" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
 
@@ -149,4 +149,4 @@ const ContactHome = () => {
   );
 };
 
-export default ContactHome;
+export default Contact;

@@ -33,22 +33,34 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#about"
+                    className="hover:text-white transition-colors"
+                  >
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#about"
+                    className="hover:text-white transition-colors"
+                  >
                     Portfolio
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#contact"
+                    className="hover:text-white transition-colors"
+                  >
                     Contact
                   </a>
                 </li>
@@ -60,27 +72,42 @@ const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Services</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Web Development
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     UI/UX Design
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     SEO Optimization
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Mobile Apps
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Digital Marketing
                   </a>
                 </li>

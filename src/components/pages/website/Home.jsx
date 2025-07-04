@@ -1,21 +1,20 @@
-import React from "react";
-import Header from "../../partials/Header";
-import BannerHome from "./BannerHome";
-import Services from "./Services";
-import AboutHome from "./AboutHome";
-import Testimonials from "./Testimonials";
-import ContactHome from "./ContactHome";
 import Footer from "../../partials/Footer";
+import Header from "../../partials/Header";
+import About from "./About";
+import Banner from "./Banner";
+import Contact from "./Contact";
+import Services from "./Services";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <BannerHome />
+      <Banner />
       <Services />
-      <AboutHome />
+      <About />
       <Testimonials />
-      <ContactHome />
+      <Contact />
       <Footer />
     </>
   );

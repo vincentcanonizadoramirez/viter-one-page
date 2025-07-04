@@ -1,6 +1,6 @@
 import React from "react";
 
-const BannerHome = () => {
+const Banner = () => {
   return (
     <>
       <section className="py-12 md:py-20 mt-[88px]">
@@ -45,4 +45,4 @@ const BannerHome = () => {
   );
 };
 
-export default BannerHome;
+export default Banner;
