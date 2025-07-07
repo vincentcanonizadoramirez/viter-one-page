@@ -5,7 +5,12 @@ export default {
     fontFamily: {
       sans: ["Poppins", "sans-serif"], // Sets Poppins as default font
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#3b82f6",
+        dashboard: "#2B2B2B",
+      },
+    },
   },
   plugins: [],
 };

@@ -32,11 +32,17 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 4rem;
+    @apply scroll-smooth scroll-pt-16;
   }
 }
 @layer components {
+  .page-container {
+    @apply flex flex-col min-h-screen;
+  }
+  .content-wrap {
+    /* @apply flex-1 */
+    flex: 1;
+  }
 }
 @layer utilities {
 }
