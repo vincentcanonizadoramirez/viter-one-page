@@ -43,6 +43,40 @@
     /* @apply flex-1 */
     flex: 1;
   }
+
+  /* MAKE LAST BACKDROP TO SHOW BG OVERLAY */
+  .modal__wrapper,
+  .backdrop:last-of-type {
+    @apply last-of-type:bg-black/30;
+  }
+  .modal__action {
+    @apply !absolute !pr-10;
+  }
+  .modal__main {
+    @apply !pr-0;
+  }
+  .modal_close {
+    @apply pr-5;
+  }
+  .modal_container {
+    @apply pr-3;
+    scrollbar-gutter: stable;
+  }
+  .modal-title {
+    @apply flex justify-between items-center text-sm;
+  }
+  .modal-content {
+    @apply overflow-y-auto flex flex-col justify-between h-full pr-[1.25rem] mt-[1.25rem];
+  }
+  .modal-form {
+    @apply flex flex-col justify-between h-full;
+  }
+  .modal-wrapper {
+    @apply bg-white h-full flex flex-col max-w-[400px] w-full p-5;
+  }
+  .modal-wrapper-menu {
+    @apply bg-white h-full flex flex-col max-w-[506px] w-full p-5;
+  }
 }
 @layer utilities {
 }

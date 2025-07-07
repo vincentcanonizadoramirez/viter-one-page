@@ -1,7 +1,16 @@
 import React from "react";
+import { HiPencil } from "react-icons/hi";
+import ModalAddHeader from "./ModalAddHeader";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [itemEdit, setItemEdit] = React.useState(false);
+  const [isHeader, setIsHeader] = React.useState(false);
+
+  const handleAddHeader = () => {
+    setIsHeader(true);
+    setItemEdit("headerUpdate");
+  };
 
   return (
     <>
@@ -26,6 +35,13 @@ const Header = () => {
             </a>
             <a href="#contact" className="hover:text-blue-500">
               Contact
+            </a>
+            <a
+              className="z-[2] relative font-montserratRegular cursor-pointer tooltip-header-left"
+              data-tooltip="Edit Header"
+              onClick={() => handleAddHeader()}
+            >
+              <HiPencil className="bg-primary hover:bg-primary text-white rounded-full w-[25px] h-[25px] p-1 border-[1px] transition-all ease-in-out duration-200" />
             </a>
           </nav>
 
@@ -84,6 +100,14 @@ const Header = () => {
           </div>
         )}
       </header>
+
+      {isHeader && (
+        <ModalAddHeader
+          itemEdit={itemEdit}
+          setIsHeader={setIsHeader}
+          //   headerData={headerData}
+        />
+      )}
     </>
   );
 };
