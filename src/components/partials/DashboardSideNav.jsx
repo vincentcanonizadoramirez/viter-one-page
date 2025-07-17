@@ -5,6 +5,15 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
     setIsSideNavOpen(!isSideNavOpen);
   };
 
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <>
       <nav
@@ -32,7 +41,11 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
             <div
               className={`py-1 px-5 flex items-center justify-between gap-2 hover:bg-primary transition-all ease-in-out duration-200 cursor-pointer`}
             >
-              <a href="#" className="flex items-center gap-2 w-full">
+              <a
+                onClick={() => handleScroll("header")}
+                href="#header"
+                className="flex items-center gap-2 w-full"
+              >
                 Header
               </a>
             </div>
@@ -41,7 +54,11 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
             <div
               className={`py-1 px-5 flex items-center justify-between gap-2 hover:bg-primary transition-all ease-in-out duration-200 cursor-pointer`}
             >
-              <a href="#" className="flex items-center gap-2 w-full">
+              <a
+                onClick={() => handleScroll("banner")}
+                href="#banner"
+                className="flex items-center gap-2 w-full"
+              >
                 Banner
               </a>
             </div>
@@ -50,7 +67,11 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
             <div
               className={`py-1 px-5 flex items-center justify-between gap-2 hover:bg-primary transition-all ease-in-out duration-200 cursor-pointer`}
             >
-              <a href="#" className="flex items-center gap-2 w-full">
+              <a
+                onClick={() => handleScroll("services")}
+                href="#services"
+                className="flex items-center gap-2 w-full"
+              >
                 Services
               </a>
             </div>
@@ -59,7 +80,11 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
             <div
               className={`py-1 px-5 flex items-center justify-between gap-2 hover:bg-primary transition-all ease-in-out duration-200 cursor-pointer`}
             >
-              <a href="#" className="flex items-center gap-2 w-full">
+              <a
+                onClick={() => handleScroll("about")}
+                href="#about"
+                className="flex items-center gap-2 w-full"
+              >
                 About
               </a>
             </div>
@@ -68,7 +93,11 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
             <div
               className={`py-1 px-5 flex items-center justify-between gap-2 hover:bg-primary transition-all ease-in-out duration-200 cursor-pointer`}
             >
-              <a href="#" className="flex items-center gap-2 w-full">
+              <a
+                onClick={() => handleScroll("testimonials")}
+                href="#testimonials"
+                className="flex items-center gap-2 w-full"
+              >
                 Testimonials
               </a>
             </div>
@@ -77,7 +106,11 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
             <div
               className={`py-1 px-5 flex items-center justify-between gap-2 hover:bg-primary transition-all ease-in-out duration-200 cursor-pointer`}
             >
-              <a href="#" className="flex items-center gap-2 w-full">
+              <a
+                onClick={() => handleScroll("contact")}
+                href="#contact"
+                className="flex items-center gap-2 w-full"
+              >
                 Contact
               </a>
             </div>
@@ -86,7 +119,11 @@ const DashboardSideNav = ({ isSideNavOpen, setIsSideNavOpen }) => {
             <div
               className={`py-1 px-5 flex items-center justify-between gap-2 hover:bg-primary transition-all ease-in-out duration-200 cursor-pointer`}
             >
-              <a href="#" className="flex items-center gap-2 w-full">
+              <a
+                onClick={() => handleScroll("footer")}
+                href="#footer"
+                className="flex items-center gap-2 w-full"
+              >
                 Footer
               </a>
             </div>

@@ -24,7 +24,7 @@ const Testimonials = () => {
                 <div className="w-full flex-shrink-0 px-4">
                   <div className="bg-white p-8 rounded-xl shadow-md text-center">
                     <img
-                      src="images/testimonials-1.webp"
+                      src="../images/testimonials-1.webp"
                       alt="Sarah Johnson"
                       className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
                     />
@@ -44,7 +44,7 @@ const Testimonials = () => {
                 <div className="w-full flex-shrink-0 px-4">
                   <div className="bg-white p-8 rounded-xl shadow-md text-center">
                     <img
-                      src="images/testimonials-2.webp"
+                      src="../images/testimonials-2.webp"
                       alt="Michael Chen"
                       className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
                     />
@@ -62,7 +62,7 @@ const Testimonials = () => {
                 <div className="w-full flex-shrink-0 px-4">
                   <div className="bg-white p-8 rounded-xl shadow-md text-center">
                     <img
-                      src="images/testimonials-3.webp"
+                      src="../images/testimonials-3.webp"
                       alt="Emma Rodriguez"
                       className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
                     />

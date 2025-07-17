@@ -27,15 +27,29 @@ const DashboardHome = () => {
         <div className="page-container">
           <div className="content-wrap">
             <div className="container max-w-full">
-              <Header />
-              <Banner />
-              <Services />
-              <About />
-              <Testimonials />
-              <Contact />
+              <div id="header">
+                <Header />
+              </div>
+              <div id="banner">
+                <Banner />
+              </div>
+              <div id="services">
+                <Services />
+              </div>
+              <div id="about">
+                <About />
+              </div>
+              <div id="testimonials">
+                <Testimonials />
+              </div>
+              <div id="contact">
+                <Contact />
+              </div>
             </div>
           </div>
-          <Footer />
+          <div id="footer">
+            <Footer />
+          </div>
         </div>
       </section>
     </>
